@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num1 = prompt('digite numero 1 :')
+        var num2 = prompt('digite numero 2:')
+
+        var op = prompt('operação :')
+
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+        switch (op) {
+            case '+':
+                alert('seu resultado é:'.concat(num1 + num2))
+                break;
+            case '*':
+                alert('seu resultado é:'.concat(num1 * num2))
+                break;
+            case '-':
+                alert('seu resultado é:'.concat(num1 - num2))
+                break;
+            case '/':
+                alert('seu resultado é:'.concat(num1 / num2))
+                break;
+            default:
+                alert('operação invalida')
+        }
+        alert('a persistencia anda lado a lado com a perfeição')
+    </script>
+</body>
+
+</html>
